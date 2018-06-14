@@ -22,7 +22,7 @@ void printLastPair(map<int,int> &sequence){
 	cout << "(" << i->first << "," << i->second << ") ";
 }
 
-//Print out last pair of a seqsuence
+//Print out first pair of a seqsuence
 void printFirstPair(map<int,int> &sequence){
 	map<int,int>::iterator i;
 	i = sequence.begin();
@@ -109,5 +109,5 @@ int main ()
 		printModifiedSequence(subSequence, factor);
 		subSequence = map<int,int>();
 	}	
-	return 0;
+return 0;
 }
